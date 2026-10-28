@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+ENV/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment variables & secrets (NEVER commit real API keys)
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+backend/cropsentinel.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Additional secret files
+.env.*
+!.env.example
+*.pem
+*.key

@@ -1,0 +1,14 @@
+item,details
+Purpose,Expanded national starter reference catalogue for CropSentinel.
+Coverage,"182 distinct crop entries, including additional fruits, vegetables, leafy greens, root/tuber crops and mushrooms."
+Critical limitation,"This is not literally every crop grown in India and not a validated diagnosis dataset. Values vary by cultivar, state, season, growth stage, soil type and management."
+Temperature,"Indicative screening ranges, not universal stress thresholds. Some crops have special requirements such as winter chilling or stage-specific limits."
+Rainfall,"Broad environmental suitability ranges, not irrigation prescriptions. Use effective rainfall, soil water balance and crop duration for operational recommendations."
+Humidity,A single ideal relative-humidity range is not appropriate for all crops/stages; leaf wetness and disease risk may matter more.
+Soil moisture,"Do not use one percentage for every crop. Calibrate sensor readings and set thresholds by crop, soil texture and growth stage."
+Mushrooms,Mushrooms are not field crops in the same sense; soil pH and annual rainfall may not apply. Use substrate and controlled-environment parameters.
+Recommended implementation,"Store crop profile separately from observation records. Record crop, variety, location, sowing date, growth stage, sensor readings, source, timestamp and alert reason."
+FAO EcoCrop,https://ecocrop.apps.fao.org/ecocrop/srv/en/home
+ICAR Crop Science,https://icar.gov.in/en/crop-science/crop-science
+ICAR Horticulture,https://icar.org.in/en/horticultural-division
+Indian crop statistics,https://desagri.gov.in/divisions-cell/agricultural-statistics-division/
