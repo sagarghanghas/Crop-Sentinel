@@ -255,3 +255,6 @@ WEATHER_HUMIDITY_FUNGAL_RISK_PCT=80.0
 - **AI Model Cold Starts**: Free Hugging Face serverless inference endpoints may take 20–30 seconds to wake up on the first request. If a timeout occurs, wait 30 seconds and click Retry.
 - **Agronomic Disclaimer**: Image-based leaf classification and rule-based risk scores are preliminary decision-support signals. They cannot measure soil nutrient concentrations or guarantee yield outcomes. Always consult a qualified local agronomist before applying chemical crop protection products.
 - **Security & Deployment Notice**: Secret API keys are kept strictly in `backend/.env` and are never exposed to the frontend bundle. This local prototype does not implement user authentication or role-based access control and should not be exposed directly to the public internet without adding an authentication layer.
+## Live Website
+**Live Demo:** https://crop-sentinel-three.vercel.app/login
+
