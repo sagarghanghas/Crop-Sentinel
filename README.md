@@ -258,4 +258,3 @@ WEATHER_HUMIDITY_FUNGAL_RISK_PCT=80.0
 ## Live Website
 **Live Demo:** https://crop-sentinel-three.vercel.app/login
 
-**Live Demo:** [CropSentinel](https://crop-sentinel-three.vercel.app/login)
